@@ -46,6 +46,7 @@ header{
 
 .menu-hamburger{
     display: flex;
+    align-items: center;
 }
 
 
@@ -55,6 +56,10 @@ ul li, a{
     list-style: none;
     color: white;
     margin-right: 10px;
+}
+
+.foto-logo{
+    width: 70%;
 }
 
 
@@ -144,6 +149,8 @@ footer{
 
     header nav{
         display: block;
+        display: flex;
+        align-items: center;
     }
 
     .menu-hamburger{
