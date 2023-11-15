@@ -16,14 +16,12 @@ html{
     max-width: 1100px;
     margin: 0 auto;
     width: 100%;
-    border: 2px dashed red;
 }
 
 .container-small{
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    border: 2px dashed red;
 }
 
 .flex-container{
@@ -82,8 +80,6 @@ ul li, a{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px dashed black;
-
 }
 
 .text-aling{
@@ -102,7 +98,7 @@ footer{
 }
 
 .padding-section-1-special{
-    padding: 30px;
+    padding: 20px;
 }
 
 .padding-section-1{
@@ -112,6 +108,7 @@ footer{
 
 #section-1 h3{
     color: #0084FD;
+    text-align: center;
 }
 
 #section-1 p{
@@ -125,6 +122,7 @@ footer{
     padding: 7px;
     border-radius: 50px;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 #section-1 span{
@@ -148,7 +146,7 @@ footer{
 
 .phone-foto, .planning-1{
     width: 100%;
-    margin-bottom: -34px;
+    margin-bottom: -25px;
 }
 
 .planning-1{
@@ -203,6 +201,7 @@ footer{
     border-radius: 50%;
     background-color: #9792E4;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 #section-3 .container-text-section-3{
@@ -228,7 +227,9 @@ footer{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    margin-left: -24px;
 }
+
 
 #section-3 .my-col{
     background-color: #9792E4;
@@ -254,6 +255,8 @@ footer{
 .container > h3{
     color: white;
     text-align: center;
+    padding: 30px;
+    font-size: 1.4em;
 }
 
 .section-4-card{
@@ -322,7 +325,7 @@ footer{
 .section-6-span-1{
     color: #CFCDF2;
     font-size: 0.8em;
-    margin-top: 50px;
+    padding: 20px;
 }
 
 .section-6-span-2{
@@ -350,6 +353,7 @@ font-size: 0.8em;
 .section-6-span-5{
     color: white;
     font-size: 0.8em;
+    padding: 20px;
 }
 
 .text-dec{
@@ -362,6 +366,10 @@ font-size: 0.8em;
 }
 
 /*FOOTER*/
+
+footer{
+    margin-top: -50px;
+}
 
 .footer-section{
     background-color: #333333;
@@ -408,6 +416,24 @@ font-size: 0.8em;
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    #section-2 .my-col-special-section-2{
+        width: 95%;
+    }
+
+    #section-3 .my-col-50{
+        width: 95%;
+    }
+
+    #section-3 .section-3-card{
+        display: flex;
+    }
+
+    .citazione-nominativo{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
 
     #section-4 .my-col-33{
         width: calc((100% / 2) - 20px);
@@ -468,12 +494,31 @@ font-size: 0.8em;
         margin-right: - 10px;
     }
 
+    .padding-section-1-special{
+        display: flex;
+    }
+
+    .section-1-flex-desktop{
+        flex-direction: column;
+    }
+
+    .h3-special{
+        margin-left: -33px;
+    }
+
     #section-2 .my-col-50{
         width: 50%
     }
 
+    .my-col-special-section-2{
+        width: 70%;
+        margin-top: 100px;
+        height: 85%;
+    }
+
+
     #section-3 .my-col-50{
-        width: 100%
+        width: 95%;
     }
 
     #section-4 .my-col-33{
